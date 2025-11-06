@@ -1,6 +1,0 @@
-flask
-sqlalchemy
-pymysql
-pandas
-python-dotenv
-scikit-learn
