@@ -9,3 +9,4 @@ Flask
 Flask-SQLAlchemy
 python-dotenv
 gunicorn  # Production WSGI server
+pymysql
