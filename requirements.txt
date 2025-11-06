@@ -1,4 +1,3 @@
-flask 
 scikit-learn
 pandas
 numpy
@@ -6,3 +5,7 @@ matplotlib
 seaborn
 sqlalchemy
 kagglehub
+Flask
+Flask-SQLAlchemy
+python-dotenv
+gunicorn  # Production WSGI server
