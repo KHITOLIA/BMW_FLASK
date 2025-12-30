@@ -41,8 +41,7 @@ with open('Linear_regression.pkl', 'rb') as f:
 
 # Load dataset
 path = kagglehub.dataset_download("y0ussefkandil/bmw-sales2010-2024")
-
-df_original = pd.read_csv(path + "/BMW sales data (2010-2024) (1).csv")
+df_original = pd.read_csv(path + "/BMW sales data (2010-2024).csv")
 
 df_original.drop(columns=['Mileage_KM', 'Price_USD'], inplace=True, errors='ignore')
 
@@ -243,3 +242,4 @@ def eda_outliers():
 if __name__ == "__main__":
 
     app.run(debug=True)
+
